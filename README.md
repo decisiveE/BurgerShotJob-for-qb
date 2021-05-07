@@ -23,6 +23,6 @@ Installation :
 
 1 - Drag & drop the decisive-job 
 
-2 - You need to add the items in the CORE 
+2 - You need to add the items and the job into the CORE 
 
 3 - You need to make the items consumables and add them a picture in the inventory.
