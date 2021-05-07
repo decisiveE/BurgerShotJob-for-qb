@@ -2,11 +2,11 @@
  
 Hello guys ! 
 
-This is my first release for the QB Communmity and i want to shere with you my BurgerShot job.
+This is my first release for the QB Communmity and i want to share with you my BurgerShot job.
 
 Simple job using bt-target to build burgers, fill sodas, fry the fries, Sign On/Off work, trays for the BurgerShot MLO and stashes for stuff.
 
-This is the first version of the release and feel free to give some ideas .
+This is the first version of the release so feel free to give some ideas .
 
 Hope u guys find this usefull. 
 
