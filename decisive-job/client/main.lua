@@ -88,7 +88,7 @@ Citizen.CreateThread(function()
                         if CheesbDistance < 1 then
                             DrawText3Ds(Config.Locations["cheesb"].x, Config.Locations["cheesb"].y, Config.Locations["cheesb"].z, "[E] To ")
                             if IsControlJustReleased(0, 38) then
-                                 QBCore.Functions.Progressbar("pickup_sla", "Baking meat..", 20000, false, true, {
+                                 QBCore.Functions.Progressbar("pickup", "Baking meat..", 20000, false, true, {
                                      disableMovement = true,
                                      disableCarMovement = false,
                                      disableMouse = false,
@@ -134,7 +134,7 @@ end)
 
 RegisterNetEvent("decisive:CheesBurger")
 AddEventHandler("decisive:CheesBurger", function()
-    QBCore.Functions.Progressbar("pickup_sla", "Building a chees burger..", 20000, false, true, {
+    QBCore.Functions.Progressbar("pickup", "Building a chees burger..", 20000, false, true, {
         disableMovement = true,
         disableCarMovement = false,
         disableMouse = false,
@@ -146,7 +146,7 @@ end)
 
 RegisterNetEvent("decisive:HamBurger")
 AddEventHandler("decisive:HamBurger", function()
-    QBCore.Functions.Progressbar("pickup_sla", "Building a ham burger..", 20000, false, true, {
+    QBCore.Functions.Progressbar("pickup", "Building a ham burger..", 20000, false, true, {
         disableMovement = true,
         disableCarMovement = false,
         disableMouse = false,
@@ -158,7 +158,7 @@ end)
 
 RegisterNetEvent("decisive:Toast")
 AddEventHandler("decisive:Toast", function()
-    QBCore.Functions.Progressbar("pickup_sla", "Toasting a toast..", 20000, false, true, {
+    QBCore.Functions.Progressbar("pickup", "Toasting a toast..", 20000, false, true, {
         disableMovement = true,
         disableCarMovement = false,
         disableMouse = false,
@@ -170,7 +170,7 @@ end)
 
 RegisterNetEvent("decisive:Soda")
 AddEventHandler("decisive:Soda", function()
-    QBCore.Functions.Progressbar("pickup_sla", "Filling a cup..", 20000, false, true, {
+    QBCore.Functions.Progressbar("pickup", "Filling a cup..", 20000, false, true, {
         disableMovement = true,
         disableCarMovement = false,
         disableMouse = false,
@@ -182,7 +182,7 @@ end)
 
 RegisterNetEvent("decisive:Fries")
 AddEventHandler("decisive:Fries", function()
-    QBCore.Functions.Progressbar("pickup_sla", "Frying the fries..", 20000, false, true, {
+    QBCore.Functions.Progressbar("pickup", "Frying the fries..", 20000, false, true, {
         disableMovement = true,
         disableCarMovement = false,
         disableMouse = false,
