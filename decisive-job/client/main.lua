@@ -199,8 +199,8 @@ end)
 
 RegisterNetEvent("decisive:Tray1")
 AddEventHandler("decisive:Tray1", function()
-    TriggerEvent("inventory:client:SetCurrentStash", "burgertray1")
-    TriggerServerEvent("inventory:server:OpenInventory", "stash", "burgertray1", {
+    TriggerEvent("inventory:client:SetCurrentStash", "burgertrayy1")
+    TriggerServerEvent("inventory:server:OpenInventory", "stash", "burgertrayy1", {
         maxweight = 10000,
         slots = 6,
     })
@@ -315,7 +315,7 @@ Citizen.CreateThread(function()
             },
         },
         job = {"all"},
-        distance = 1.5
+        distance = 3.0
     })
 
     
@@ -332,7 +332,7 @@ Citizen.CreateThread(function()
             },
         },
         job = {"all"},
-        distance = 1.5
+        distance = 3.0
     })
 
     
